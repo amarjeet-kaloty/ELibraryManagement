@@ -35,15 +35,15 @@
                           <div class="row">
                             <div class="col">
                                 <div class="form-group">
-                                    <asp:TextBox CssClass="form-control" runat="server" placeholder="Admin ID"></asp:TextBox>
+                                    <asp:TextBox CssClass="form-control" runat="server" ID="TextBox1" placeholder="Admin ID"></asp:TextBox>
                                 </div>
 
                                 <div class="form-group">
-                                    <asp:TextBox CssClass="form-control" runat="server" placeholder="Password" TextMode="Password"></asp:TextBox>
+                                    <asp:TextBox CssClass="form-control" runat="server" ID="TextBox2" placeholder="Password" TextMode="Password"></asp:TextBox>
                                 </div>
 
                                 <div class="form-group">
-                                    <asp:Button  class="btn btn-success btn-block btn-lg" runat="server" Text="Login" />
+                                    <asp:Button  class="btn btn-success btn-block btn-lg" runat="server" Text="Login" OnClick="Login_Click" />
                                 </div>
 
                             </div>

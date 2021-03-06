@@ -73,6 +73,12 @@
     <Content Include="adminlogin.aspx" />
     <Content Include="adminMemberManagement.aspx" />
     <Content Include="adminPublisherManagement.aspx" />
+    <Content Include="booksinventory\b1.jpg" />
+    <Content Include="booksinventory\b2.jpg" />
+    <Content Include="booksinventory\b3.jpg" />
+    <Content Include="booksinventory\b4.jpg" />
+    <Content Include="booksinventory\b5.jpg" />
+    <Content Include="booksinventory\books1.png" />
     <Content Include="bootstrap\css\bootstrap.min.css" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
     <Content Include="bootstrap\js\jquery-3.5.1.slim.min.js" />
@@ -1736,8 +1742,6 @@
     <Content Include="userprofile.aspx" />
     <Content Include="usersignup.aspx" />
     <Content Include="viewBooks.aspx" />
-    <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="adminAuthorManagement.aspx.cs">
@@ -1825,13 +1829,6 @@
     <Compile Include="viewBooks.aspx.designer.cs">
       <DependentUpon>viewBooks.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="fontawesome\fontawesome-free-5.14.0-web\less\brands.less" />
@@ -1890,6 +1887,8 @@
     <Content Include="fontawesome\fontawesome-free-5.14.0-web\webfonts\fa-solid-900.woff2" />
     <None Include="packages.config" />
     <Content Include="Site1.Master" />
+    <Content Include="Web.config" />
+    <None Include="Properties\PublishProfiles\ELibraryManagement20210305215711 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1897,6 +1896,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

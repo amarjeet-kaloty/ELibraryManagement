@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="elibraryDB" Class="TestDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-2SK6G70;Initial Catalog=elibraryDB;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="elibraryDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.admin_login_tbl" Member="admin_login_tbls">
+    <Type Name="admin_login_tbl">
+      <Column Name="username" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="full_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.member_master_tbl" Member="member_master_tbls">
+    <Type Name="member_master_tbl">
+      <Column Name="full_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dob" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="contact_no" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="state" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="city" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="pincode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="full_address" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="member_id" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="account_status" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
